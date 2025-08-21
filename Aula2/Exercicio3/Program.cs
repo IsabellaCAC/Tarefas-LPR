@@ -1,26 +1,25 @@
-﻿Console.WriteLine("Tarefa 2");
+﻿using System;
+using System.Globalization;
 
-string poderes;
-
-Console.WriteLine("Escolha entre os personagens: Guerreira, Mago e Arqueira");
-poderes = Console.ReadLine();
-
-switch (poderes)
+class Program
 {
+    static void Main()
+    {
+        // Leitura dos dados
+        Console.Write("Digite o numero do funcionario: ");
+        int numeroFuncionario = int.Parse(Console.ReadLine());
 
-    case "Guerreira":
-        Console.WriteLine("Uau, voce tem ataque pesado e defesa total!");
-        break;
+        Console.Write("Digite o numero de horas trabalhadas: ");
+        double horasTrabalhadas = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-    case "Mago":
-        Console.WriteLine("Uau, voce tem bola de fogo e escudo de gelo. Que medo!!!");
-        break;
+        Console.Write("Digite o valor recebido por hora: ");
+        double valorPorHora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-    case "Arqueira":
-        Console.WriteLine("Uau, voce tem flecha precisa e disparo triplo. Esse eh poderoso, se ver saia correndo!!!");
-        break;
+        // Calculo do salario
+        double salario = horasTrabalhadas * valorPorHora;
 
-    default:
-        Console.WriteLine("Nao identificado");
-        break;
+        // Saida formatada
+        Console.WriteLine("Funcionario: " + numeroFuncionario);
+        Console.WriteLine("Salario: R$ " + salario.ToString("F2", CultureInfo.InvariantCulture));
+    }
 }
