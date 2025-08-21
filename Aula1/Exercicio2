@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B, C, D;
+    
+    // Ler os quatro valores
+    cout << "Digite os valores de A, B, C e D: ";
+    cin >> A >> B >> C >> D;
+    
+    // Calcular a diferença do produto
+    int diferenca = (A * B) - (C * D);
+    
+    // Mostrar o resultado
+    cout << "DIFERENCA = " << diferenca << endl;
+    
+    return 0;
+}
