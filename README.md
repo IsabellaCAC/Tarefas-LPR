@@ -1,9 +1,23 @@
-# Tarefas-LPR
-Bem-vindo ao meu repositório!!! 
+# 📘 Aulas de Linguagem de Programação  
 
-Aqui você irá encontrar a resolução de tarefas empregadas na aula de Linguagem de Programação.
+👋 Bem-vindo ao meu repositório!!!  
 
-Linguagem dos exercícios:
-C# e C++
+Aqui você encontrará as resoluções de **tarefas práticas** desenvolvidas durante a disciplina de **Linguagem de Programação**. 🚀  
 
-Espero que você se diverta e muito obrigada pela visita! Volte sempre!! :)
+## 🔧 Linguagens Utilizadas
+- ⚡ **C++**
+- 🎯 **C#**
+
+## 📂 O que você vai encontrar
+✔️ Exercícios resolvidos  
+✔️ Exemplos práticos  
+✔️ Código simples e direto  
+
+## 🤝 Contribuição
+Se tiver sugestões ou quiser trocar ideias, fique à vontade para abrir uma **issue** ou mandar um **pull request**! 😄  
+
+---
+
+✨ Obrigado pela visita!  
+💻 Espero que você se divirta explorando os códigos.  
+🔄 Volte sempre!!  
